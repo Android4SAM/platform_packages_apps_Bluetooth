@@ -61,7 +61,7 @@ final class AdapterState extends StateMachine {
 
     //TODO: tune me
     private static final int ENABLE_TIMEOUT_DELAY = 8000;
-    private static final int DISABLE_TIMEOUT_DELAY = 8000;
+    private static final int DISABLE_TIMEOUT_DELAY = 80000;
     private static final int START_TIMEOUT_DELAY = 5000;
     private static final int STOP_TIMEOUT_DELAY = 5000;
     private static final int PROPERTY_OP_DELAY =2000;
